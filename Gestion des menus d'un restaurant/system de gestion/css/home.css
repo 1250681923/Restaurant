@@ -1,0 +1,199 @@
+/*定位*/
+.wrap{
+    position: relative;
+    width: 500px;
+    height:630px;
+    margin:0 auto;
+}
+/*菜式导航*/
+.navbar {
+    border-radius: 0;
+    background: #503431;
+}
+/*实现下拉*/
+.content .nav{
+	width:500px;
+	height:50px;
+	overflow:hidden;
+}
+/**/
+
+/*bootstrap默认加了relative的属性值给position，导致我的定位错位了，下面是为了food样式定位是跳过li元素*/
+.content li{
+    position: static;
+	float:none;
+	display:inline-block;
+}
+.content li:first-child  a:first-child{
+    color: #EEEE00;
+}
+.content li a:first-child{
+    color: #9d9d9d;
+}
+.content .click_down{
+	position:absolute;
+    top:20px;
+    right:10px;
+	color:white;
+}
+.content .click_down:hover{
+	font-size:20px;
+	cursor:pointer;
+}
+/*菜类删除*/
+
+.type_del{
+	float:left;
+	top:-45px;
+	right:0px;
+	color:#EEEE00;
+	display:none;
+}
+
+/*添加菜类*/
+/* .add_type span{
+    color:white;
+    margin:17px 10px;
+}
+.add_type span:hover{
+    cursor:pointer;
+    font-size:15px;
+}
+.add_type input{
+    text-align: center;
+    border:1px solid #3c3c3c;
+    border-radius:5px;
+    -moz-border-radius:5px;
+}
+.add_type_content{
+    float: left;
+    margin: 14px 0 0 0;
+    display: none;
+} */
+/*食物添加区*/
+.content{
+	position:relative;
+}
+.add_food{
+	position:absolute;
+	top:55px;
+	left:0;
+	padding:6px;
+	font-size:20px;
+	background:#503431;
+	color:white;
+	border:1px solid #503431;
+    border-radius:15px;
+    -moz-border-radius:15px;
+	z-index:2;
+}
+.add_food:hover{
+	color:yellow;
+}
+.add_foodarea{
+	position:absolute;
+	top:53px;
+	left:0;
+	width:250px;
+	padding: 15px;
+    background: #d5b797;
+    margin:8px 0 5px 8px;
+    border:3px solid white;
+    border-radius:5px;
+    -moz-border-radius:5px;
+	display:none;
+}
+#file {
+	display: none;
+}
+.pick_pic {
+	width:100px;
+	text-align: center;
+	background-color: white;
+	border-radius: 5px;
+	display:inline-block;
+	padding: 7px;
+	margin:0 0 5px 30px;
+}
+.add_foodarea input,.f_modify{
+    text-align: center;
+	margin: 5px 15px 0 10px;
+    border:1px solid white;
+    border-radius:5px;
+    -moz-border-radius:5px;
+}
+.preview{
+	float:right;
+	width:50px;
+	height:50px;
+}
+/*更改图片*/
+.change_pic{
+	margin:0 0 0 10px;
+}
+.change_pic:hover{
+	color:white;
+	cursor:pointer;
+}
+/**/
+.food{
+    position:absolute;
+    top:50px;
+    left:-1px;
+    width:500px;
+    height:450px;
+    overflow:hidden;
+    background: #72413d;
+    border-top: solid 2px white;
+    display:none;
+}
+.food1{
+    display: block;
+}
+/*滚动条*/
+.food:hover{
+    overflow:scroll;
+    overflow-x:hidden
+}
+.food:hover::-webkit-scrollbar {
+    width:0;
+}
+.food:hover::-webkit-scrollbar-thumb {
+    border-radius:10px;
+    background:rgba(0,0,0,0.1);
+}
+/*菜品显示区*/
+.food_area{
+    float:left;
+    background: #d5b797;
+    margin:8px 0 5px 10px;
+    border:1px solid white;
+    border-radius:5px;
+    -moz-border-radius:5px;
+}
+.food_area h4{
+	width:100px;
+}
+.food_area b{
+	width:50px;
+}
+.food_area img{
+    width:150px;
+    height:110px;
+}
+.food_area figcaption{
+    color: white;
+    padding: 0 0 5px 10px;
+}
+.food_area .f_modify{
+    float: right;
+    margin: 0 10px 10px 0;
+}
+/*页脚导航*/
+.footer .navbar-fixed-bottom{
+    position: absolute;
+}
+.footer li{
+    width: 165px;
+    text-align: center;
+}

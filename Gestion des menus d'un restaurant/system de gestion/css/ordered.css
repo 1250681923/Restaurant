@@ -1,0 +1,107 @@
+/*定位*/
+.wrap{
+    position: relative;
+    width: 500px;
+    height:630px;
+    margin:0 auto;
+}
+/*菜式导航*/
+nav ul{
+    height: 50px;
+}
+.navbar{
+    border-radius: 0;
+    background: #503431;
+
+}
+/**/
+
+/*滚动条*/
+.ordered:hover{
+    overflow:scroll;
+    overflow-x:hidden;
+}
+.ordered:hover::-webkit-scrollbar {
+    width:0;
+}
+.ordered:hover::-webkit-scrollbar-thumb {
+    border-radius:10px;
+    background:rgba(0,0,0,0.1);
+}
+/*订单区*/
+.ordered{
+    position:absolute;
+    top:130px;
+    left:0;
+    height:450px;
+    overflow:hidden;
+    background: #d5b797;
+    color:white;
+    border-top: solid 2px white;
+}
+.cent{
+    width: 450px;
+    margin: 10px 25px;
+}
+.cent .table{
+    border-bottom: solid 1px white;
+}
+.table tr td:last-child{
+    width: 120px;
+}
+thead td{
+    font-size: larger;
+    color: #122b40;
+
+}
+.cent table input{
+    color: #363636;
+    text-align: center;
+    margin: 0 5px;
+    border:1px solid white;
+    border-radius:5px;
+    -moz-border-radius:5px;
+}
+.cent table a{
+    color: inherit;
+}
+a span:hover{
+    color: #122b40;
+}
+
+.ordered_price strong{
+    float: right;
+	padding:0 5px;
+	background:#795548;
+    font-size: medium;
+	border:1px solid white;
+    border-radius:5px;
+    -moz-border-radius:5px;
+}
+.ordered_price strong:hover{
+    color: #122b40;
+    cursor: pointer;
+}
+/*详细订单*/
+.detials{	
+	display:none;
+}
+.detials .table{
+	background-color:#d5b787;
+}
+/*页脚导航*/
+.footer .navbar-fixed-bottom{
+    position: absolute;
+}
+.footer li{
+    width: 165px;
+    text-align: center;
+}
+.t_num{
+    position: absolute;
+    top:20px;
+    left:20px;
+    background: white;
+    color: #2e6da4;
+    font-size: x-large;
+}

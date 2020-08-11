@@ -1,0 +1,68 @@
+.wrap{
+    position: relative;
+    width: 500px;
+    height:630px;
+    background: url("../image/index_bg.jpg") center;
+    margin:0 auto;
+}
+.img-circle{
+    width:165px;
+    height:165px;
+    margin:155px 0 0 170px;
+}
+main{
+    width: 400px;
+    text-align: center;
+    margin:100px auto;
+}
+main a{
+    width: 150px;
+    margin: 0 20px;
+}
+main .btn-default:hover{
+    background: #4c2321;
+    color: white;
+}
+/*登录*/
+.manager_login{
+    width: 200px;
+    background: white;
+    position: absolute;
+    top: 150px;
+    left: 150px;
+    border:1px solid;
+    border-radius:10px;
+    -moz-border-radius:10px;
+    padding-bottom: 10px;
+    display: none;
+}
+.manager_login input{
+
+    text-align: center;
+    margin: 10px 5px;
+    border:1px solid #3c3c3c;
+    border-radius:5px;
+    -moz-border-radius:5px;
+}
+
+.manager_login .btn-link:hover{
+    background: #4c2321;
+    color: white;
+    cursor: pointer;
+}
+/*管理登录*/
+.manager_login{
+    top: 180px;
+}
+.manager_login input{
+    margin: 5px;
+}
+.manager_login .btn-link{
+    position: absolute;
+    top:50px;
+    left: 188px;
+    background: white;
+    border:2px solid white;
+    border-radius:20px;
+    -moz-border-radius:20px;
+}
