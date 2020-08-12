@@ -1,14 +1,12 @@
 # 
-Logiciels: PowerAMC, sqldeveloper(Oracle Database 19c 19.3), WampServer64()
+Logiciels: PowerAMC, Sqldeveloper(Oracle Database 19c 19.3), WampServer64(faut ouvrir php_oci8, php_oci8_11g, php_pdo_oci)
 
 Installation de ORACLE:
 
 https://www.oracle.com/database/technologies/oracle-database-software-downloads.html
 
+PHP, Jquery, bootstrap, css, Ajax, JavaScript
 
+C'est un petit projet afin de réaliser la situation comme chez Mcdonald's. Le système de commande et Le système de gestion sont incluts dans ce projet.
 
-
-
-Front-end: Jquery, bootstrap
-
-please read specification_analyse.....pdf
+Merci de lire specification_analyse.....pdf
