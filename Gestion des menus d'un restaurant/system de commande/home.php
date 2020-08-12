@@ -40,7 +40,7 @@
 										if($food_types[$i]==$value[2]){
 							?>
                             <figure class="food_area">
-                                <img class="img-thumbnail" src="<?php echo "../res_admin/upload_img/".$value[4]?>"/>
+                                <img class="img-thumbnail" src="<?php echo "../system de gestion/upload_img/".$value[4]?>"/>
                                 <figcaption>
                                     <h4><?php echo $value[1]?></h4>
                                     <span>Prix：<?php echo '$'.$value[3]?></span>
