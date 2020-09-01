@@ -5,7 +5,9 @@ Installation de ORACLE:
 
 https://www.oracle.com/database/technologies/oracle-database-software-downloads.html
 
-PHP, Jquery, bootstrap, css, Ajax, JavaScript
+PHP, css, JavaScript
+
+Jquery, bootstrap, Ajax,
 
 C'est un petit projet afin de réaliser la situation comme chez Mcdonald's. Le système de commande et Le système de gestion sont incluts dans ce projet.
 
